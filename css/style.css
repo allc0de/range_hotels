@@ -8,6 +8,27 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Oxygen", arial;
 }
 
+.buttom{
+    display: inline-block;
+    background: #58c4c4;
+    padding: 0.75em 2.5em;
+    border-radius: 0.35em;
+    color: white;
+    text-decoration: none;
+}
+
+.buttom:hover{
+    background: #37a0a0;
+}
+
+.top-header{
+    text-align: center;
+}
+
+.top-header-logo{
+    margin: 0.5em;
+}
+
 .top-nav{
     background: #612674;
     text-align: center;
@@ -22,5 +43,50 @@ h1, h2, h3, h4, h5, h6{
 .top-nav a{
     color: white;
     text-decoration: none;
+    padding: 1em;
     display: block;
+}
+
+.top-nav a:hover{
+    background: #7c3792;
+}
+
+.top-content{
+    text-align: center;
+    padding: 1em;
+    background: #f6f6f6
+}
+
+.top-content-title{
+    color: #612674;
+    font-size: 1.375em;
+    margin: 1.375em;
+}
+
+.top-content-subtitle{
+    color: #a87bb7;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.middle-content{
+    padding: 2em;
+    background: #f6f6f6;
+    text-align: center;
+}
+
+.middle-content-title{
+    font-size: 1.25em;
+    color: #652e78;
+    text-transform: uppercase;
+}
+
+.middle-content p{
+    line-height: 1.5em;
+    color: #222
+}
+
+.middle-content span[class^="icon"]{
+    font-size: 3.5em;
+    color:  #652e78;
 }
